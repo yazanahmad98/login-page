@@ -1,64 +1,40 @@
 .p2{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
      position: relative;  
      bottom: 10px; 
 }
 .a{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
     position: relative; top: 20px;   
 }
-.p1{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-}
 .img{
-     position: relative; left: 45%; 
+     position: relative; bottom: 30px; 
     width: 200px;
     
 }
 .login{
-    width: 23%;
+    width: 300px;
     height: 40px; 
     background-color: blue;
     color: white;
     cursor: pointer;
     border: none;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px ;
-     position: relative;
-     top: 50px;
-    left: 590px;  
+    border-radius: 30px ;  
     color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
     text-decoration: none;
 }
 .signup{
-    width: 23%;
+    width: 300px;
     height: 40px; 
     background-color: rgb(252, 7, 7);
     color: white;
     cursor: pointer;
     border: none;
-    display: flex;
-    justify-content: center;
     border-radius: 30px ;
-     position: relative;
-     top: 50px;
-    left: 590px;  
-    display: flex;
-    align-items: center;
     text-decoration: none;
 }
 .BigDiv{
-    width: 100%;
-    height: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
